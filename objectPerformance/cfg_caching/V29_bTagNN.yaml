@@ -1,0 +1,11 @@
+
+V29_bTagNN:
+  TT:
+    ntuple_path: /eos/cms/store/group/dpg_trigger/comm_trigger/L1Trigger/alobanov/phase2/menu/ntuples/CMSSW_12_5_2p1/v29/TT_1252_crab_v29_Snap3/230413_214422/0000/*.root
+    trees_branches:
+      genTree/L1GenTree:
+        genMetTrue: "all"
+        jet: "all"
+      l1PhaseIITree/L1PhaseIITree:
+        seededConeExtendedPuppiJet: [Pt, Et, Eta, Phi, BJetNN]
+        seededConePuppiJet: [Pt, Et, Eta, Phi]
